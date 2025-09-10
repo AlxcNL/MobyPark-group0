@@ -4,4 +4,4 @@
 
 message="Salut"
 
-http GET http://127.0.0.1:8000/component?text=${message}&number=11
+http GET http://127.0.0.1:8000/component?text=${message}
