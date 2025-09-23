@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# Author: J.A.Boogaard@hr.nl
+
 from fastapi import FastAPI
 
 import uvicorn
@@ -18,7 +20,7 @@ async def helloWorld():
 #     return { "component_id" : component_id }
 
 @app.get("/component")
-async def readComponent(text: str):    
+async def readComponent(text: str):
     return { "text": text }
 
 if __name__ == "__main__":
