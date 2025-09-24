@@ -216,7 +216,7 @@ Run pylint
 pylint [python module]
 ```
 
-The messages are explained at the <a href"https://pylint.pycqa.org/en/latest/user_guide/messages/index.html">Pylint documentation</a>
+The messages are explained at the [Pylint documentation](https://pylint.pycqa.org/en/latest/user_guide/messages/index.html")
 
 </li>
 
