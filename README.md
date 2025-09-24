@@ -128,7 +128,7 @@ git push
 
 (Optional) Enable VSCode to be opened from the command line
 
-Open the Command Palette and type 'shell command' in order to select the Shell command: 
+Open the Command Palette and type 'shell command' in order to select the Shell command:
 Install 'code' command in PATH
 
 Start VSCode with a command from current directory
@@ -188,6 +188,35 @@ code .
 </li>
 
 </ul>
+
+</li>
+
+</ol>
+
+
+## Testing
+
+<ol>
+
+<li>
+
+Install pylint
+
+```sh
+pip install pylint
+```
+
+</li>
+
+<li>
+
+Run pylint
+
+```sh
+pylint [python module]
+```
+
+The messages are explained at the <a href"https://pylint.pycqa.org/en/latest/user_guide/messages/index.html">Pylint documentation</a>
 
 </li>
 

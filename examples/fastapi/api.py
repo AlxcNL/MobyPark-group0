@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# Author: J.A.Boogaard@hr.nl
+
 from fastapi import FastAPI
 from fastapi import FastAPI
 
@@ -16,7 +18,7 @@ async def helloWorld():
     return { "message" : "hello world" }
 
 @app.get("/component")
-async def readComponent(text: str):    
+async def readComponent(text: str):
     return { "text": text }
 
 if __name__ == "__main__":
